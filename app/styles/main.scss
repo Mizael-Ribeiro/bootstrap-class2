@@ -1,0 +1,75 @@
+h2, h3{
+  font-family: 'Pacifico', cursive;
+}
+
+@media(min-width: 768px){
+  .menu{
+  &__list{
+    display: flex;
+    justify-content: flex-end;
+    }
+  }
+}
+
+.menu{
+  &__link:hover{
+    color: #fff;
+  }
+}
+
+.banner{
+
+  &__image{
+    object-fit: cover;
+    height: 60vh;
+  }
+
+  &__title{
+    height: 60%;
+  }
+}
+
+.impact-text{
+  &__title{
+    color: darkred;
+  }
+}
+
+.tiles{
+
+  background-color: #f4f0f0;
+
+  &__group{
+    width: 18rem;
+  }
+
+  &__image{
+    object-fit: cover;
+    height: 35vh;
+  }
+
+  &__body{
+    border-color: darkred;
+  }
+
+  &__btn{
+    color: #fff;
+    background-color: darkred;
+  }
+  &__btn:hover{
+      color: #fff;
+      background-color: #560303;
+  }
+}
+
+.modal{
+  &__btn{
+    border: 0px;
+    background-color: darkred;
+  }
+
+  &__btn:hover, &__btn:focus,   &__btn:active{
+    border: 0px;
+    background-color: #560303 !important;
+  }
+}
